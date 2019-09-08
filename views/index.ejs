@@ -9,3 +9,37 @@
     <p>Welcome to <%= title %></p>
   </body>
 </html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Release Year</th>
+          <th>MPAA Rating</th>
+          <th>Cast</th>
+          <th>Now Showing</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% films.forEach(function(f) { %>
+          <tr>
+            <td><%= f.title %></td>
+            <td><%= f.releaseYear %></td>
+            <td><%= f.mpaaRating %></td>
+            <td><%= f.cast.join(', ') %></td>
+            <td><%= f.nowShowing ? "Yes" : "No" %></td>
+          </tr>
+
+        <% }) %>
+      </tbody>
+    </table>>
+  </body>
+</html> -->
